@@ -1,2 +1,54 @@
 /* Google Fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* Footer styles  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: rgba(19, 19, 24, 0.05);
+  min-height: 300px;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer hr {
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin-bottom: 3.13rem;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 3.13rem;
+}
+.logo-container img {
+  max-width: 50px;
+  max-height: 40px;
+  object-fit: cover;
+}
+.travel-title {
+  color: rgb(19, 19, 24);
+  font-size: 32px;
+  font-weight: 800;
+}
+.travel {
+  color: rgb(255, 84, 0);
+}
+.footer-description{
+    margin-bottom: 2rem;
+}
+.fa-brands{
+    font-size: 1.5rem;
+    margin-right: 1.75rem;
+}

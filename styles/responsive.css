@@ -1,0 +1,9 @@
+/* Mobile Device  */
+@media screen and (max-width: 600px){
+    .footer{
+        padding: 20px;
+    }
+    .fa-brands{
+        margin-top: 10px;
+    }
+}
