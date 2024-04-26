@@ -6,4 +6,13 @@
     .fa-brands{
         margin-top: 10px;
     }
+    .popular-tours{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .tours-img img{
+        width: 100%;
+        object-fit: cover;
+    }
 }
