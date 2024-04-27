@@ -6,13 +6,22 @@
     .fa-brands{
         margin-top: 10px;
     }
-    .popular-tours{
+    .popular-tours, .newsletter{
         flex-direction: column;
         margin-left: 20px;
         margin-right: 20px;
     }
+    .newsletter-content input{
+        width: 90%;
+    }
     .tours-img img{
         width: 100%;
         object-fit: cover;
+    }
+    .sale-seventy-percent{
+        padding: 10px;
+        top: 40%;
+        left: 40%;
+        font-size: 10px;
     }
 }

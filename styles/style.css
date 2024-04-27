@@ -7,9 +7,57 @@
   border: 0;
   color: rgb(255, 255, 255);
   padding: 14px;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 800;
   margin-top: 2rem;
+}
+/* Banner section  */
+.banner-section {
+  max-width: 1170px;
+  margin: 70px auto;
+  background-image: url(../Images/Group\ 13.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.banner-title {
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner-description {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1.5rem;
+}
+.selection-field {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  width: 69%;
+  margin-bottom: 70px;
+}
+.selection-field input,
+select {
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  padding: 16px 20px;
+}
+.selection-field input::placeholder,
+select {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
 }
 /* Our Popular Tours styles  */
 .popular-tours {
@@ -32,13 +80,85 @@ ul {
   font-weight: 400;
   margin: 20px 0;
 }
-.tours-content li{
-    margin-bottom: 1rem;
+.tours-content li {
+  margin-bottom: 1rem;
 }
 .tours-img img {
   width: 540px;
 }
+/* Newsletter styles  */
+.newsletter {
+  max-width: 1170px;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.newsletter-content {
+  border: 1px solid rgb(255, 84, 0);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.newsletter-content h4 {
+  color: rgb(19, 19, 24);
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.newsletter-content p {
+  color: rgb(90, 90, 93);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.newsletter-content hr {
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin: 23.5px 0;
+}
+.newsletter-img img {
+  width: 100%;
+  max-width: 672px;
+}
+.newsletter-content input {
+  border-radius: 8px;
 
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 1rem;
+  border: 0;
+  padding: 15px 20px;
+  font-weight: 400;
+  display: block;
+  width: 80%;
+  margin-bottom: 16px;
+}
+.newsletter-img{
+  position: relative;
+}
+.sale-seventy-percent {
+  border-radius: 16px;
+  background: rgb(255, 84, 0);
+  max-width: 324px;
+  padding: 35px;
+  transform: rotate(-19.63deg);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+}
+.sale-seventy-percent h4 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+}
+.sale-seventy-percent h3 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-weight: 800;
+}
 /* Footer styles  */
 * {
   margin: 0;
