@@ -328,7 +328,7 @@ ul {
   padding: 35px;
   transform: rotate(-19.63deg);
   position: absolute;
-  top: 40%;
+  top: 60%;
   left: 40%;
 }
 .sale-seventy-percent h4 {
@@ -363,7 +363,7 @@ ul {
   font-size: 1rem;
   font-weight: 700;
 }
-.new-year-sale img{
+.new-year-sale img {
   width: 100%;
   object-fit: cover;
 }
@@ -405,7 +405,7 @@ body {
 }
 .travel-title {
   color: rgb(19, 19, 24);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 800;
 }
 .travel {
