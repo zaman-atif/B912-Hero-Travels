@@ -1,5 +1,18 @@
 /* Mobile Device  */
 @media screen and (max-width: 600px) {
+    .selection-field{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .selection-field input , select, .btn-primary{
+        width: 90%;
+    }
+    .banner-section{
+        padding: 20px 16px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
   .footer {
     padding: 20px;
   }
