@@ -11,6 +11,37 @@
   font-weight: 800;
   margin-top: 2rem;
 }
+/* Navbar styles  */
+.navbar {
+  max-width: 1170px;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo-container{
+  margin-top: 0;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.hamburger{
+  display: none;
+}
+
+.nav-links li {
+  list-style-type: none;
+  margin-right: 44px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: rgb(66, 66, 71);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
 /* Banner section  */
 .banner-section {
   max-width: 1170px;
